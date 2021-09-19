@@ -1,15 +1,10 @@
 :root {
   --ff-bootstrap: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --ff-custom: 'Josefin Sans', sans-serif;
-
-  --cl-light: #fbfbfb;
-  --cl-dark: #282c2d;
-  --cl-accent1: #013b47;
-  --cl-accent2: #9c4624;
 }
 
 body {
-  background-color: var(--cl-light);
+  background-color: #e9e7e6;
 }
 
 /* Provide sufficient contrast against white background */
