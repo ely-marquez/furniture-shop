@@ -1,11 +1,11 @@
 {
-  "short_name": "furniture_shop",
-  "name": "furniture_shop",
+  "short_name": "Furniture Shop",
+  "name": "Furniture Shop",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "furniture.png",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     }
   ],
   "start_url": "./index.html",
