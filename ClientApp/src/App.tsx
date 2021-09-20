@@ -5,7 +5,8 @@ import Home from './components/Home';
 import Counter from './components/Counter';
 import FetchData from './components/FetchData';
 
-import './custom.css'
+import './custom.scss';
+import './App.css';
 
 export default () => (
     <Layout>

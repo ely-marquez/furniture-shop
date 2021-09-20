@@ -6,9 +6,9 @@ import Navly from './Navly';
 export default (props: { children?: React.ReactNode }) => (
   <React.Fragment>
     {/* <NavMenu/> */}
-    <Navly />
     <Container>
       {props.children}
     </Container>
+    <Navly />
   </React.Fragment>
 );
