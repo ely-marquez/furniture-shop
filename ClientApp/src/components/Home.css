@@ -1,0 +1,13 @@
+.home-title {
+  margin-top: 1em;
+  min-height: 5em;
+}
+
+.home-title > h2 {
+  font-family: var(--font-family-title);
+}
+
+.home-title-icon {
+  font-size: 1.7rem;
+  margin-top: -0.9rem;
+}

@@ -1,7 +1,3 @@
 :root {
   --font-family-title: 'Josefin Sans', sans-serif;
 }
-
-h1 {
-  font-family: var(--font-family-title);
-}
