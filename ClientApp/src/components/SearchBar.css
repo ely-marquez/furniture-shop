@@ -1,14 +1,45 @@
-.searchbaritem {
+/* .searchbar-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color: aqua;
+} */
+
+.searchbar-wrapper {
+  overflow-y: scroll;
+  white-space: nowrap;
+  transform: rotate(-90deg);
+  background-color: aqua;
+}
+
+/* .searchbar {
+  width: 61rem;
+} */
+
+.searchbar {
+  height: 61rem;
+  width: -5rem;
+}
+
+/* .searchbaritem {
   height: 5.3rem;
-  width: 5.1rem; 
+  width: 5.1rem;
   border-radius: 1.7rem;
   cursor: pointer;
+} */
+
+.searchbaritem {
+  height: 5.3rem;
+  width: 5.1rem;
+  border-radius: 1.7rem;
+  cursor: pointer;
+  transform: rotate(90deg);
 }
 
 .searchbaritem > span {
   font-family: var(--font-family-theme);
   font-size: 1.3rem;
   font-weight: bold;
+  color: var(--primary);
 }
 
 .searchbaritem > img {
