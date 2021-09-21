@@ -1,3 +1,9 @@
 :root {
-  --font-family-title: 'Josefin Sans', sans-serif;
+  --font-family-theme: 'Josefin Sans', sans-serif;
+}
+
+html {
+  height: 100%;
+  background: linear-gradient(#fcfcfc, #e9e7e6);;
+  background-attachment: fixed;
 }

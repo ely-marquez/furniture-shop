@@ -1,0 +1,53 @@
+.searchbaritem {
+  height: 5.3rem;
+  width: 5.1rem; 
+  border-radius: 1.7rem;
+  cursor: pointer;
+}
+
+.searchbaritem > span {
+  font-family: var(--font-family-theme);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.searchbaritem > img {
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+#chair {
+  mask: url("../images/chair.png") center/contain;
+}
+
+#chair2 {
+  mask: url("../images/chair2.png") center/contain;
+}
+
+#couch {
+  mask: url("../images/couch.png") center/contain;
+}
+
+#cupboard {
+  mask: url("../images/cupboard.png") center/contain;
+}
+
+#sofa {
+  mask: url("../images/sofa.png") center/contain;
+}
+
+#sofa2 {
+  mask: url("../images/sofa2.png") center/contain;
+}
+
+#lamp {
+  mask: url("../images/lamp.png") center/contain;
+}
+
+#lamp2 {
+  mask: url("../images/lamp2.png") center/contain;
+}
+
+#table {
+  mask: url("../images/table.png") center/contain;
+}

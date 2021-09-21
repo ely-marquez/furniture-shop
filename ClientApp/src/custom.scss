@@ -1,9 +1,12 @@
-$body-bg: #e9e7e6;
+// $body-bg: #e9e7e6;
+// $body-bg: #fbfcfb;
+$body-bg: rgba(0, 0, 0, 0); //transparent
 $body-color: #282c2d;
 
 $theme-colors: (
   "primary": #013b47,
-  "secondary": #9c4624,
+  "secondary": #e3e8e9,
+  "warning": #9c4624,
   "light": #fbfbfa,
   "dark": #282c2d
 );

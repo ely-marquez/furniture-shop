@@ -3,9 +3,9 @@ import { Nav, NavItem } from "reactstrap";
 import './Navly.css';
 
 const Navly = () => {
-  const [selectedIdx, setSelectedIdx] = React.useState(0);
+  const [selectedIdx, setSelectedIdx] = React.useState<number>(0);
 
-  return <Nav justified className="navly fixed-bottom align-items-center bg-light">
+  return <Nav justified className="navly mx-auto fixed-bottom align-items-center bg-light">
     <NavItem className="text-primary" onClick={() => setSelectedIdx(0)}>
       <i className={"navly-item bi bi-house-door" + (selectedIdx === 0 ? "-fill" : "")}></i>
     </NavItem>
